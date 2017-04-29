@@ -1,0 +1,116 @@
+---------- Very Important Links:
+0. Visual Intro to ML - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+1. http://cs231n.github.io/ - Good course on CNN for Image Recognition
+https://docs.google.com/spreadsheets/d/1EEZd9VIf_6wtbghen1lgXCoQef2zxhQ-TwvsCOmMpR4/edit#gid=0
+
+1.0. https://www.cs.cmu.edu/~tom/ - VERY IMPORTANT PROF FOR COURSE VIDEOS
+1.1. https://docs.google.com/presentation/d/1NqWed2Odw-4HaVVpjfmle7q5aY7i61wVfOej6haOkAA/edit#slide=id.g1059ed585d_0_408 - Quick Intro
+1.2. http://www.datasciencecentral.com/profiles/blogs/machine-learning-summarized-in-one-picture - ML in one pic + links to resources
+1.3. http://www.datasciencecentral.com/profiles/blogs/15-deep-learning-tutorials - Basic Tutorials
+
+2. http://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
+3. Youtube lecture - freudo (Using Torch)
+*4.1. http://timdettmers.com/2015/03/26/convolution-deep-learning/ - Good high level on CNN
+*4.2. http://colah.github.io/posts/2015-08-Understanding-LSTMs/ - Good high level on RNN/LSTM/GRU
+5. http://inst.eecs.berkeley.edu/~cs188/pacman/project_overview.html - Overall AI
+*6. http://neuralnetworksanddeeplearning.com/chap1.html - Easy to understand tutorials on Deep learning
+*7. https://www.udacity.com/course/deep-learning--ud730 - Deep learning Course by Google on TensorFlow
+8. http://jacobcv.blogspot.com/2016/03/visualizing-cnn-filters-with-keras_26.html- Visualizing CNN using Keras
+9. https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts/ - Deep learning Overview
+10. https://medium.com/artifacia/learn-deep-learning-the-hard-way-e5d844f9fbc1#.mtjfm8na1 - Good list of things to read
+11. https://www.coursera.org/learn/neural-networks - NN for ML (Toronto Univ)
+12. http://callingbullshit.org/syllabus.html - Good Data analysis course
+13. https://www.quora.com/How-can-I-become-a-data-scientist-1/answer/Monica-Rogati?ref=fb_page - How can I become a data scientist? by Monica Rogati
+14. Udacity - self-driving “nanodegree” program - Curriculum - https://medium.com/self-driving-cars/term-1-in-depth-on-udacitys-self-driving-car-curriculum-ffcf46af0c08#.ocrtxq11y
+15. https://github.com/oxford-cs-deepnlp-2017/lectures - NLP using Deep Learning techniques.
+16. https://github.com/tensorflow/deepmath - Experiments towards neural network theorem proving
+
+Deep Belief Networks (DBN)
+
+FACE RECOGNITION - https://cmusatyalab.github.io/openface/
+
+RNN:
+http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+https://github.com/karpathy/char-rnn
+
+C Source:
+http://pjreddie.com/darknet/
+
+
+Hack:  http://lifehacker.com/amazon-has-an-official-guide-for-building-your-own-alex-1766852717?utm_campaign=socialflow_lifehacker_facebook&utm_source=lifehacker_facebook&utm_medium=socialflow
+
+Python: https://automatetheboringstuff.com/chapter0/
+
+
+---------- Experiments TO DO:
+0. Page Dewarping - https://mzucker.github.io/2016/08/15/page-dewarping.html
+1. Audio Fingerprinting - http://willdrevo.com/fingerprinting-and-audio-recognition-with-python/
+2. A tour of ML Algos - http://www.datasciencecentral.com/profiles/blogs/a-tour-of-machine-learning-algorithms-1
+3. Wavenet: A generative model for raw Audio - https://deepmind.com/blog/wavenet-generative-model-raw-audio/
+4. Pole Balancer - http://neuromorphic.eecs.utk.edu/pages/research-demos/
+5. Big Data Analysis in Sports Science - https://www.technologyreview.com/s/600957/big-data-analysis-is-changing-the-nature-of-sports-science/
+6. Transform Hand-written sketches into realistic images -  https://www.technologyreview.com/s/601684/machine-vision-algorithm-learns-to-transform-hand-drawn-sketches-into-photorealistic-images/?utm_campaign=socialflow&utm_source=facebook&utm_medium=post
+7. Apartment finding slackbot - https://www.dataquest.io/blog/apartment-finding-slackbot/
+8. David Gusto experiments - https://gist.github.com/davidmrdavid
+9. Automatic Colorization - http://tinyclouds.org/colorize/
+9. OpenAI https://openai.com/blog/infrastructure-for-deep-learning/
+10. CNN for NLP - http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
+11. Gradescope Handwritting Recognition - https://github.com/gradescope/handwriting_recognition
+12. Object tracking using OpenCV 3.1 - http://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
+
+
+---------- Interesting Data:
+1. http://bigpixel.ucsd.edu/ (http://www.sciencemag.org/news/2016/08/satellite-images-can-map-poverty)
+2. Real Time crime forecasting-challenge -  http://www.nij.gov/funding/Pages/fy16-crime-forecasting-challenge.aspx?utm_source=PopularScience&utm_medium=Ad&utm_content=Digital&utm_campaign=ForecastingChallenge
+3. Fighting Corruption with Science in Brazil - https://github.com/datasciencebr/serenata-de-amor
+4. Word2vec corpus
+5. Video classification Youtube 8Million - https://research.googleblog.com/2016/09/announcing-youtube-8m-large-and-diverse.html
+6. Youtube Bounding Box - https://research.google.com/youtube-bb/
+7. Online Indus Writing Database - http://www.user.tu-berlin.de/fuls/Homepage/indus/help_onlinedatabase.pdf
+
+
+As such, the researchers argue, their system captures something of the elasticity of human concepts, which often have fuzzy boundaries but still seem to delimit coherent categories. It also mimics the human ability to learn new concepts from few examples. It thus offers hope, they say, that the type of computational structure it’s built on, called a probabilistic program, could help model human acquisition of more sophisticated concepts as well.
+
+
+---------- MODELS:
+1. Baidu's Deep Speech 2 - https://www.technologyreview.com/s/544651/baidus-deep-learning-system-rivals-people-at-speech-recognition/
+2. Google's Parsey McParseface language parser
+3. Google's Show and Tell Image Captioning (in TensorFlow) - https://github.com/tensorflow/models/tree/master/im2txt
+
+
+---------- TOOLS:
+1. Getting started with AWS - https://www.youtube.com/watch?v=YBdYTgwb2OM
+ - https://cloud.google.com/free-trial/
+2. TensorFlow - no support for Windows
+Install GPU TensorFlow From Sources w/ Ubuntu 16.04 and Cuda 8.0 - https://alliseesolutions.wordpress.com/2016/09/08/install-gpu-tensorflow-from-sources-w-ubuntu-16-04-and-cuda-8-0-rc/
+
+3. Keras + Theano
+http://deeplearning.net/software/theano/install_windows.html#install-windows
+http://stackoverflow.com/questions/34097988/how-to-install-keras-and-theano-in-anaconda-python-2-7-in-windows
+
+http://keras.io/
+http://keras.io/getting-started/functional-api-guide/
+
+4. Web data extractor - https://www.import.io/
+
+Hadoop Cluster Docker:
+https://github.com/kiwenlau/hadoop-cluster-docker
+
+AWS : https://github.com/open-guides/og-aws
+
+Google Cloud Vision APIs - https://cloud.google.com/vision/docs/requests-and-responses
+
+---------- Applications:
+RNN
+1. Sentence generation - learn character by character, use RNN/LSTM
+2. Music Generation - exactly same as sentence generation
+3. Video classification (RNN + CNN)
+CNN
+1. Face Emotion recognition
+2. 
+Reinforcement learning
+1. Playing how to play a game - Input: emulator screen, emulator score. Output: direction to be feed back into emulator. Use the emulator score as reward.
+
+No idea !!!
+1. Novel Generation
+2. AI work at National Center for Missing & Exploited Children* (NCMEC)
