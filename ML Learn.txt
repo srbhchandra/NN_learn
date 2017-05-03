@@ -1,19 +1,30 @@
+Data Augmentation
+Bayesian Hyperparameter optimization
+
+-------------- Links to be followed currently:
+http://cs231n.github.io/ - Good course on CNN for Image Recognition
+https://github.com/Hvass-Labs/TensorFlow-Tutorials
+http://neuralnetworksanddeeplearning.com/chap1.html - Easy to understand tutorials on Deep learning
+https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html
+https://jacobgil.github.io/deeplearning/filter-visualizations
+http://cv-tricks.com/artificial-intelligence/deep-learning/deep-learning-frameworks/tensorflow-tutorial/
+
+
 ---------- Very Important Links:
 0. Visual Intro to ML - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
-1. http://cs231n.github.io/ - Good course on CNN for Image Recognition
 https://docs.google.com/spreadsheets/d/1EEZd9VIf_6wtbghen1lgXCoQef2zxhQ-TwvsCOmMpR4/edit#gid=0
 
 1.0. https://www.cs.cmu.edu/~tom/ - VERY IMPORTANT PROF FOR COURSE VIDEOS
 1.1. https://docs.google.com/presentation/d/1NqWed2Odw-4HaVVpjfmle7q5aY7i61wVfOej6haOkAA/edit#slide=id.g1059ed585d_0_408 - Quick Intro
 1.2. http://www.datasciencecentral.com/profiles/blogs/machine-learning-summarized-in-one-picture - ML in one pic + links to resources
 1.3. http://www.datasciencecentral.com/profiles/blogs/15-deep-learning-tutorials - Basic Tutorials
+https://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html - excellent list of papers for current bests in image classification
 
 2. http://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
 3. Youtube lecture - freudo (Using Torch)
 *4.1. http://timdettmers.com/2015/03/26/convolution-deep-learning/ - Good high level on CNN
 *4.2. http://colah.github.io/posts/2015-08-Understanding-LSTMs/ - Good high level on RNN/LSTM/GRU
 5. http://inst.eecs.berkeley.edu/~cs188/pacman/project_overview.html - Overall AI
-*6. http://neuralnetworksanddeeplearning.com/chap1.html - Easy to understand tutorials on Deep learning
 *7. https://www.udacity.com/course/deep-learning--ud730 - Deep learning Course by Google on TensorFlow
 8. http://jacobcv.blogspot.com/2016/03/visualizing-cnn-filters-with-keras_26.html- Visualizing CNN using Keras
 9. https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts/ - Deep learning Overview
@@ -24,6 +35,7 @@ https://docs.google.com/spreadsheets/d/1EEZd9VIf_6wtbghen1lgXCoQef2zxhQ-TwvsCOmM
 14. Udacity - self-driving “nanodegree” program - Curriculum - https://medium.com/self-driving-cars/term-1-in-depth-on-udacitys-self-driving-car-curriculum-ffcf46af0c08#.ocrtxq11y
 15. https://github.com/oxford-cs-deepnlp-2017/lectures - NLP using Deep Learning techniques.
 16. https://github.com/tensorflow/deepmath - Experiments towards neural network theorem proving
+
 
 Deep Belief Networks (DBN)
 
@@ -67,7 +79,7 @@ Python: https://automatetheboringstuff.com/chapter0/
 5. Video classification Youtube 8Million - https://research.googleblog.com/2016/09/announcing-youtube-8m-large-and-diverse.html
 6. Youtube Bounding Box - https://research.google.com/youtube-bb/
 7. Online Indus Writing Database - http://www.user.tu-berlin.de/fuls/Homepage/indus/help_onlinedatabase.pdf
-
+8. Face Dataset from Tinder - https://github.com/scoliann/TinderFaceScraper
 
 As such, the researchers argue, their system captures something of the elasticity of human concepts, which often have fuzzy boundaries but still seem to delimit coherent categories. It also mimics the human ability to learn new concepts from few examples. It thus offers hope, they say, that the type of computational structure it’s built on, called a probabilistic program, could help model human acquisition of more sophisticated concepts as well.
 
