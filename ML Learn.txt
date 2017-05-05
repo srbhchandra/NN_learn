@@ -36,6 +36,7 @@ https://rodrigob.github.io/are_we_there_yet/build/classification_datasets_result
 15. https://github.com/oxford-cs-deepnlp-2017/lectures - NLP using Deep Learning techniques.
 16. https://github.com/tensorflow/deepmath - Experiments towards neural network theorem proving
 
+17. https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab - Linear Algebra
 
 Deep Belief Networks (DBN)
 
@@ -67,8 +68,7 @@ Python: https://automatetheboringstuff.com/chapter0/
 9. Automatic Colorization - http://tinyclouds.org/colorize/
 9. OpenAI https://openai.com/blog/infrastructure-for-deep-learning/
 10. CNN for NLP - http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
-11. Gradescope Handwritting Recognition - https://github.com/gradescope/handwriting_recognition
-12. Object tracking using OpenCV 3.1 - http://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
+11. Object tracking using OpenCV 3.1 - http://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
 
 
 ---------- Interesting Data:
@@ -81,7 +81,9 @@ Python: https://automatetheboringstuff.com/chapter0/
 7. Online Indus Writing Database - http://www.user.tu-berlin.de/fuls/Homepage/indus/help_onlinedatabase.pdf
 8. Face Dataset from Tinder - https://github.com/scoliann/TinderFaceScraper
 
-As such, the researchers argue, their system captures something of the elasticity of human concepts, which often have fuzzy boundaries but still seem to delimit coherent categories. It also mimics the human ability to learn new concepts from few examples. It thus offers hope, they say, that the type of computational structure it’s built on, called a probabilistic program, could help model human acquisition of more sophisticated concepts as well.
+As such, the researchers argue, their system captures something of the elasticity of human concepts, which often have fuzzy boundaries but still seem to delimit coherent categories. 
+It also mimics the human ability to learn new concepts from few examples. It thus offers hope, they say, that the type of computational structure it’s built on, 
+called a probabilistic program, could help model human acquisition of more sophisticated concepts as well.
 
 
 ---------- MODELS:
@@ -92,25 +94,10 @@ As such, the researchers argue, their system captures something of the elasticit
 
 ---------- TOOLS:
 1. Getting started with AWS - https://www.youtube.com/watch?v=YBdYTgwb2OM
- - https://cloud.google.com/free-trial/
-2. TensorFlow - no support for Windows
-Install GPU TensorFlow From Sources w/ Ubuntu 16.04 and Cuda 8.0 - https://alliseesolutions.wordpress.com/2016/09/08/install-gpu-tensorflow-from-sources-w-ubuntu-16-04-and-cuda-8-0-rc/
-
-3. Keras + Theano
-http://deeplearning.net/software/theano/install_windows.html#install-windows
-http://stackoverflow.com/questions/34097988/how-to-install-keras-and-theano-in-anaconda-python-2-7-in-windows
-
-http://keras.io/
-http://keras.io/getting-started/functional-api-guide/
-
-4. Web data extractor - https://www.import.io/
-
-Hadoop Cluster Docker:
-https://github.com/kiwenlau/hadoop-cluster-docker
-
-AWS : https://github.com/open-guides/og-aws
-
-Google Cloud Vision APIs - https://cloud.google.com/vision/docs/requests-and-responses
+   https://github.com/open-guides/og-aws
+2. Web data extractor - https://www.import.io/
+3. Hadoop Cluster Docker - https://github.com/kiwenlau/hadoop-cluster-docker
+4. Google Cloud Vision APIs - https://cloud.google.com/vision/docs/requests-and-responses
 
 ---------- Applications:
 RNN
@@ -123,6 +110,5 @@ CNN
 Reinforcement learning
 1. Playing how to play a game - Input: emulator screen, emulator score. Output: direction to be feed back into emulator. Use the emulator score as reward.
 
-No idea !!!
 1. Novel Generation
 2. AI work at National Center for Missing & Exploited Children* (NCMEC)
