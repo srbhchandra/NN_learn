@@ -9,6 +9,8 @@ https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html
 https://jacobgil.github.io/deeplearning/filter-visualizations
 http://cv-tricks.com/artificial-intelligence/deep-learning/deep-learning-frameworks/tensorflow-tutorial/
 
+Top book for Deep learning - http://www.deeplearningbook.org/
+
 
 ---------- Very Important Links:
 0. Visual Intro to ML - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
