@@ -3,11 +3,15 @@ Bayesian Hyperparameter optimization
 
 -------------- Links to be followed currently:
 http://cs231n.github.io/ - Good course on CNN for Image Recognition
+https://keras.io/models/sequential/
 https://github.com/Hvass-Labs/TensorFlow-Tutorials
 http://neuralnetworksanddeeplearning.com/chap1.html - Easy to understand tutorials on Deep learning
 https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html
 https://jacobgil.github.io/deeplearning/filter-visualizations
 http://cv-tricks.com/artificial-intelligence/deep-learning/deep-learning-frameworks/tensorflow-tutorial/
+
+After learning CNNs:
+https://keras.io/applications
 
 Top book for Deep learning - http://www.deeplearningbook.org/
 
@@ -71,7 +75,7 @@ Python: https://automatetheboringstuff.com/chapter0/
 9. OpenAI https://openai.com/blog/infrastructure-for-deep-learning/
 10. CNN for NLP - http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
 11. Object tracking using OpenCV 3.1 - http://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
-
+12. https://affinelayer.com/pixsrv/
 
 ---------- Interesting Data:
 1. http://bigpixel.ucsd.edu/ (http://www.sciencemag.org/news/2016/08/satellite-images-can-map-poverty)

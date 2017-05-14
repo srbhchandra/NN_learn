@@ -55,43 +55,54 @@ import numpy as np
 
 
 def sigmoid(x):
-    return 1/(1 + np.exp(-x))
+    return 1 / (1 + np.exp(-x))
+
 
 def d_sigmoid(x):
     return sigmoid(x) * (1 - sigmoid(x))
 
+
 def tanh(x):
     return np.tanh(x)
 
+
 def d_tanh(x):
-    return 1 - np.tanh(x)**2
+    return 1 - np.tanh(x) ** 2
+
 
 def tanh_alt(x):
     return 2 * sigmoid(2 * x) - 1
 
+
 def d_tanh_alt(x):
     return 4 * d_sigmoid(2 * x)
 
+
 def ReLU(x):
     return np.clip(x, 0, np.max(x))
+
 
 def d_ReLU(x):
     y = ReLU(x)
     y[x >= 0] = 1
     return y
 
+
 def leaky_ReLU(x, alpha=0.01):
     alpha_array = np.ones(x.shape, dtype=float)
     alpha_array[x < 0] = alpha
     return alpha_array * x
+
 
 def d_leaky_ReLU(x, alpha=0.01):
     alpha_array = np.ones(x.shape, dtype=float)
     alpha_array[x < 0] = alpha
     return alpha_array
 
+
 def maxout(x, y):
     return np.maximum(x, y)
+
 
 def d_maxout(x, y):
     x_ret = np.zeros(x.shape, dtype=float)
