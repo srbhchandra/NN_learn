@@ -1,23 +1,68 @@
+-------------- Points:
+* Data preprocessing - zscore all data: X = (X - X_mean) / X_std
+* Weights initialization = np.random.randn(n) * sqrt(c/n) where:
+	- c = 2 for relu activation
+	- c = 1 for non-relu activation
+	- n = number of inputs
+
+* Learning Rates
+	- Try three different learning rates – 1e-1, 1e-3, and 1e-6 to get a rough idea of what it should be before further tuning this.
+	- Decaying Learning rates are very effective:
+		- step decay: lr = initial_lr * math.pow(drop_rate, math.floor((epoch) / epoch_drop))   where say epoch_drop = 50, drop_rate = 0.5 to divide lr by half very 50 epochs.
+		- continuous decay: lr = lr * 1/(1 + decay * epoch) where decay is usually lr/total_epochs
+
+* Regularization is very important - overfitting can usually be observed without it.
+* Regularization techniques - l1, l2, maxout, dropout
+	- l2 - common values are 1e-3 to 1e-6
+	- dropout - common dropout rate is 0.5
+
+* Preferred activation: relu 
+	- but ensure there are no relu dying nodes by checking intermediate layer activation outputs or even weights
+	- leaky relu and prelu are alternatives
+* Preferred activation for lstms: tanh 
+
+* Preferred optimization: Adam 
+
+* Loss functions
+	- Sigmoid - binary cross entropy
+	- Softmax - multiclass cross entropy
+	- svm - hinge /l2-hinge
+	- regression - mean squared error
+	
 Data Augmentation
 Bayesian Hyperparameter optimization
 
 -------------- Links to be followed currently:
 http://cs231n.github.io/ - Good course on CNN for Image Recognition
 https://keras.io/models/sequential/
+http://lamda.nju.edu.cn/weixs/project/CNNTricks/CNNTricks.html
 https://github.com/Hvass-Labs/TensorFlow-Tutorials
 http://neuralnetworksanddeeplearning.com/chap1.html - Easy to understand tutorials on Deep learning
 https://blog.keras.io/how-convolutional-neural-networks-see-the-world.html
 https://jacobgil.github.io/deeplearning/filter-visualizations
 http://cv-tricks.com/artificial-intelligence/deep-learning/deep-learning-frameworks/tensorflow-tutorial/
+http://timdettmers.com/2015/03/26/convolution-deep-learning/ - Good high level on CNN
+http://jacobcv.blogspot.com/2016/03/visualizing-cnn-filters-with-keras_26.html- Visualizing CNN using Keras
+https://karpathy.github.io/2015/05/21/rnn-effectiveness/ - Super notes on RNN
+
 
 After learning CNNs:
 https://keras.io/applications
 
+
+---------- Nikki - LSTM reference:
+* http://colah.github.io/posts/2015-08-Understanding-LSTMs/ - Good high level on RNN/LSTM/GRU
+* http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/ - with good example
+
+
 Top book for Deep learning - http://www.deeplearningbook.org/
 
 
+---------- Links forever:
+* How to choose an estimator - http://scikit-learn.org/stable/tutorial/machine_learning_map/
+
 ---------- Very Important Links:
-0. Visual Intro to ML - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+* Visual Intro to ML - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
 https://docs.google.com/spreadsheets/d/1EEZd9VIf_6wtbghen1lgXCoQef2zxhQ-TwvsCOmMpR4/edit#gid=0
 
 1.0. https://www.cs.cmu.edu/~tom/ - VERY IMPORTANT PROF FOR COURSE VIDEOS
@@ -28,11 +73,8 @@ https://rodrigob.github.io/are_we_there_yet/build/classification_datasets_result
 
 2. http://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
 3. Youtube lecture - freudo (Using Torch)
-*4.1. http://timdettmers.com/2015/03/26/convolution-deep-learning/ - Good high level on CNN
-*4.2. http://colah.github.io/posts/2015-08-Understanding-LSTMs/ - Good high level on RNN/LSTM/GRU
 5. http://inst.eecs.berkeley.edu/~cs188/pacman/project_overview.html - Overall AI
 *7. https://www.udacity.com/course/deep-learning--ud730 - Deep learning Course by Google on TensorFlow
-8. http://jacobcv.blogspot.com/2016/03/visualizing-cnn-filters-with-keras_26.html- Visualizing CNN using Keras
 9. https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts/ - Deep learning Overview
 10. https://medium.com/artifacia/learn-deep-learning-the-hard-way-e5d844f9fbc1#.mtjfm8na1 - Good list of things to read
 11. https://www.coursera.org/learn/neural-networks - NN for ML (Toronto Univ)
@@ -99,8 +141,10 @@ called a probabilistic program, could help model human acquisition of more sophi
 
 
 ---------- TOOLS:
-1. Getting started with AWS - https://www.youtube.com/watch?v=YBdYTgwb2OM
-   https://github.com/open-guides/og-aws
+1. Getting started with AWS 
+	- The best link possible: http://ec2.forpoets.org/
+	- https://www.youtube.com/watch?v=YBdYTgwb2OM
+   	- https://github.com/open-guides/og-aws
 2. Web data extractor - https://www.import.io/
 3. Hadoop Cluster Docker - https://github.com/kiwenlau/hadoop-cluster-docker
 4. Google Cloud Vision APIs - https://cloud.google.com/vision/docs/requests-and-responses
