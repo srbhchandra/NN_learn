@@ -1,4 +1,4 @@
--------------- Points:
+-------------- Information:
 * Data preprocessing - zscore all data: X = (X - X_mean) / X_std
 * Weights initialization = np.random.randn(n) * sqrt(c/n) where:
 	- c = 2 for relu activation
@@ -45,21 +45,24 @@ http://timdettmers.com/2015/03/26/convolution-deep-learning/ - Good high level o
 http://jacobcv.blogspot.com/2016/03/visualizing-cnn-filters-with-keras_26.html- Visualizing CNN using Keras
 https://karpathy.github.io/2015/05/21/rnn-effectiveness/ - Super notes on RNN
 
-
-After learning CNNs:
+-- After learning CNNs:
 https://keras.io/applications
 
 
----------- Nikki - LSTM reference:
+---------- RNN/LSTM/GRU reference:
 * http://colah.github.io/posts/2015-08-Understanding-LSTMs/ - Good high level on RNN/LSTM/GRU
 * http://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/ - with good example
+* http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+* https://github.com/karpathy/char-rnn - Lua/Torch code for Character level language model.
 
 
-Top book for Deep learning - http://www.deeplearningbook.org/
-
+---------- Word embedding/Word2Vec/NLP:
+* https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/ - excellent read on word embeddings and image to word embedding model
 
 ---------- Links forever:
 * How to choose an estimator - http://scikit-learn.org/stable/tutorial/machine_learning_map/
+* https://blog.openai.com/generative-models/ - Brilliant summary of Generative networks with links to state of art code/papers
+
 
 ---------- Very Important Links:
 * Visual Intro to ML - http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
@@ -87,12 +90,10 @@ https://rodrigob.github.io/are_we_there_yet/build/classification_datasets_result
 17. https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab - Linear Algebra
 
 Deep Belief Networks (DBN)
+Top book for Deep learning - http://www.deeplearningbook.org/
 
 FACE RECOGNITION - https://cmusatyalab.github.io/openface/
 
-RNN:
-http://karpathy.github.io/2015/05/21/rnn-effectiveness/
-https://github.com/karpathy/char-rnn
 
 C Source:
 http://pjreddie.com/darknet/
