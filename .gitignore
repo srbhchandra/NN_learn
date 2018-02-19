@@ -1,5 +1,6 @@
 Datasets
 .ipynb_checkpoints
 .mypy_cache
+_models
 __pycache__
 .pyc
